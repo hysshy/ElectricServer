@@ -1,0 +1,24 @@
+[2020-09-27T08:49:18.438 info Netsdk:41296 8611:8633 AVNetSDKMgr.cpp:367]Load avnetsdk library dynamically
+[2020-09-27T08:49:18.438 info Netsdk:41296 8611:8633 AVNetSDKMgr.cpp:391]avnetsdk module handle: 0x7f43e46d3e50
+
+[2020-09-27T08:49:18.438 info Netsdk:41296 8611:8633 AVNetSDKMgr.cpp:717]Load configsdk dynamically
+[2020-09-27T08:49:18.459 info Netsdk:41296 8611:8633 dhnetsdk.cpp:190]Enter CLIENT_SetAutoReconnect:[cbAutoConnect=0x7f4473768048, dwUser=(nil)].
+[2020-09-27T08:49:18.459 info Netsdk:41296 8611:8633 dhnetsdk.cpp:192]Leave CLIENT_SetAutoReconnect.
+[2020-09-27T08:49:18.459 info Netsdk:41296 8611:8633 dhnetsdk.cpp:210]Enter CLIENT_SetConnectTime:[nWaitTime=5000, nTryTimes=1].
+[2020-09-27T08:49:18.459 info Netsdk:41296 8611:8633 dhnetsdk.cpp:223]Leave CLIENT_SetConnectTime.
+[2020-09-27T08:49:18.459 info Netsdk:41296 8611:8633 dhnetsdk.cpp:234]Enter CLIENT_SetNetworkParam:[nWaittime=0, nConnectTime=10000, nConnectTryNum=0, nSubConnectSpaceTime=0, nGetDevInfoTime=0, nConnectBufSize=0, nGetConnInfoTime=3000, nSearchRecordTime=0, nsubDisconnetTime=0, byNetType=0, byPlaybackBufSize=0, bDetectDisconnTime=0, bKeepLifeInterval=0, nPicBufSize=0].
+[2020-09-27T08:49:18.460 info Netsdk:41296 8611:8633 dhnetsdk.cpp:249]Leave CLIENT_SetNetworkParam.
+[2020-09-27T08:49:18.460 info Netsdk:41296 8611:8633 dhnetsdk.cpp:586]Enter CLIENT_LoginEx2. IP:192.168.25.109, port:37777, SpeCap:0, lpDeviceInfo:0x7f43e48a3cd0.
+[2020-09-27T08:49:18.460 error Netsdk:41296 8611:8633 TPTCPClient.cpp:423]connect() failed: Operation now in progress
+[2020-09-27T08:49:18.723 info Netsdk:41296 8611:8633 dhnetsdk.cpp:622]Leave CLIENT_LoginEx2. error:0, login ID:139929573805024.
+[2020-09-27T08:49:18.724 info Netsdk:41296 8611:8633 dhnetsdk.cpp:7400]Enter CLIENT_SetSnapRevCallBack. [OnSnapRevMessage=0x7f4473768080, dwUser=(nil).]
+[2020-09-27T08:49:18.724 info Netsdk:41296 8611:8633 dhnetsdk.cpp:7403]Leave CLIENT_SetSnapRevCallBack.
+[2020-09-27T08:49:18.725 info Netsdk:41296 8611:8633 dhnetsdk.cpp:7440]Enter CLIENT_SnapPictureEx. [lLoginID=139929573805024, par=0x7f43e48a4aa0, reserved=0x7f43e48a3e70.]
+[2020-09-27T08:49:18.725 info Netsdk:41296 8611:8633 dhnetsdk.cpp:7460]Leave CLIENT_SnapPictureEx. ret:1.
+[2020-09-27T08:49:29.778 info Netsdk:41296 8611:8633 dhnetsdk.cpp:815]Enter CLIENT_Logout. lLoginID:139929573805024.
+[2020-09-27T08:49:29.788 info Netsdk:41296 8611:8633 dhnetsdk.cpp:837]Leave CLIENT_Logout. ret:1
+[2020-09-27T08:49:39.787 info Netsdk:41296 8611:8633 dhnetsdk.cpp:136]Enter CLIENT_InitEx:[cbDisConnect=0x7f44737680b8, dwUser=(nil), lpInitParam=(nil)].
+[2020-09-27T08:49:39.787 info Netsdk:41296 8611:8633 AVNetSDKMgr.cpp:670]Test avnetsdk module handle: 0x7f43e46d3e50
+
+[2020-09-27T08:49:39.787 info Netsdk:41296 8611:8633 dhnetsdk.cpp:159]Leave CLIENT_InitEx.
+[2020-09-27T08:49:39.788 info Netsdk:41296 8611:8633 Manager.cpp:13118]-------------------Log file reset, log number:10-log size:10240------------------

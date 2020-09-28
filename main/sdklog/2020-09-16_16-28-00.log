@@ -1,0 +1,13 @@
+[2020-09-16T16:28:00.565 info Netsdk:41296 8766:8788 dhnetsdk.cpp:190]Enter CLIENT_SetAutoReconnect:[cbAutoConnect=0x7fc258a420f0, dwUser=(nil)].
+[2020-09-16T16:28:00.565 info Netsdk:41296 8766:8788 dhnetsdk.cpp:192]Leave CLIENT_SetAutoReconnect.
+[2020-09-16T16:28:00.565 info Netsdk:41296 8766:8788 dhnetsdk.cpp:210]Enter CLIENT_SetConnectTime:[nWaitTime=5000, nTryTimes=1].
+[2020-09-16T16:28:00.565 info Netsdk:41296 8766:8788 dhnetsdk.cpp:223]Leave CLIENT_SetConnectTime.
+[2020-09-16T16:28:00.565 info Netsdk:41296 8766:8788 dhnetsdk.cpp:234]Enter CLIENT_SetNetworkParam:[nWaittime=0, nConnectTime=10000, nConnectTryNum=0, nSubConnectSpaceTime=0, nGetDevInfoTime=0, nConnectBufSize=0, nGetConnInfoTime=3000, nSearchRecordTime=0, nsubDisconnetTime=0, byNetType=0, byPlaybackBufSize=0, bDetectDisconnTime=0, bKeepLifeInterval=0, nPicBufSize=0].
+[2020-09-16T16:28:00.565 info Netsdk:41296 8766:8788 dhnetsdk.cpp:249]Leave CLIENT_SetNetworkParam.
+[2020-09-16T16:28:00.566 info Netsdk:41296 8766:8788 dhnetsdk.cpp:586]Enter CLIENT_LoginEx2. IP:192.168.25.109, port:37777, SpeCap:0, lpDeviceInfo:0x7fc1e48939a0.
+[2020-09-16T16:28:00.566 error Netsdk:41296 8766:8788 TPTCPClient.cpp:423]connect() failed: Operation now in progress
+[2020-09-16T16:28:00.841 info Netsdk:41296 8766:8788 dhnetsdk.cpp:622]Leave CLIENT_LoginEx2. error:0, login ID:140470739617968.
+[2020-09-16T16:28:00.841 info Netsdk:41296 8766:8788 dhnetsdk.cpp:7400]Enter CLIENT_SetSnapRevCallBack. [OnSnapRevMessage=0x7fc258a42128, dwUser=(nil).]
+[2020-09-16T16:28:00.841 info Netsdk:41296 8766:8788 dhnetsdk.cpp:7403]Leave CLIENT_SetSnapRevCallBack.
+[2020-09-16T16:28:00.841 info Netsdk:41296 8766:8788 dhnetsdk.cpp:7440]Enter CLIENT_SnapPictureEx. [lLoginID=140470739617968, par=0x7fc1e4897920, reserved=0x7fc1e4897670.]
+[2020-09-16T16:28:00.841 info Netsdk:41296 8766:8788 dhnetsdk.cpp:7460]Leave CLIENT_SnapPictureEx. ret:1.

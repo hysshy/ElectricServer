@@ -1,0 +1,15 @@
+[2020-09-16T15:20:14.500 info Netsdk:41296 11941:11963 dhnetsdk.cpp:190]Enter CLIENT_SetAutoReconnect:[cbAutoConnect=0x7f6ea084f390, dwUser=(nil)].
+[2020-09-16T15:20:14.500 info Netsdk:41296 11941:11963 dhnetsdk.cpp:192]Leave CLIENT_SetAutoReconnect.
+[2020-09-16T15:20:14.500 info Netsdk:41296 11941:11963 dhnetsdk.cpp:210]Enter CLIENT_SetConnectTime:[nWaitTime=5000, nTryTimes=1].
+[2020-09-16T15:20:14.500 info Netsdk:41296 11941:11963 dhnetsdk.cpp:223]Leave CLIENT_SetConnectTime.
+[2020-09-16T15:20:14.501 info Netsdk:41296 11941:11963 dhnetsdk.cpp:234]Enter CLIENT_SetNetworkParam:[nWaittime=0, nConnectTime=10000, nConnectTryNum=0, nSubConnectSpaceTime=0, nGetDevInfoTime=0, nConnectBufSize=0, nGetConnInfoTime=3000, nSearchRecordTime=0, nsubDisconnetTime=0, byNetType=0, byPlaybackBufSize=0, bDetectDisconnTime=0, bKeepLifeInterval=0, nPicBufSize=0].
+[2020-09-16T15:20:14.501 info Netsdk:41296 11941:11963 dhnetsdk.cpp:249]Leave CLIENT_SetNetworkParam.
+[2020-09-16T15:20:14.501 info Netsdk:41296 11941:11963 dhnetsdk.cpp:586]Enter CLIENT_LoginEx2. IP:192.168.25.109, port:37777, SpeCap:0, lpDeviceInfo:0x7f6e2c8cb920.
+[2020-09-16T15:20:14.501 error Netsdk:41296 11941:11963 TPTCPClient.cpp:423]connect() failed: Operation now in progress
+[2020-09-16T15:20:14.774 info Netsdk:41296 11941:11963 dhnetsdk.cpp:622]Leave CLIENT_LoginEx2. error:0, login ID:140111170553904.
+[2020-09-16T15:20:14.774 info Netsdk:41296 11941:11963 dhnetsdk.cpp:7400]Enter CLIENT_SetSnapRevCallBack. [OnSnapRevMessage=0x7f6ea084f3c8, dwUser=(nil).]
+[2020-09-16T15:20:14.774 info Netsdk:41296 11941:11963 dhnetsdk.cpp:7403]Leave CLIENT_SetSnapRevCallBack.
+[2020-09-16T15:20:14.775 info Netsdk:41296 11941:11963 dhnetsdk.cpp:7440]Enter CLIENT_SnapPictureEx. [lLoginID=140111170553904, par=0x7f6e2c4c98d0, reserved=0x7f6e2c2d42a0.]
+[2020-09-16T15:20:14.775 info Netsdk:41296 11941:11963 dhnetsdk.cpp:7460]Leave CLIENT_SnapPictureEx. ret:1.
+[2020-09-16T15:20:26.828 info Netsdk:41296 11941:11963 dhnetsdk.cpp:815]Enter CLIENT_Logout. lLoginID:140111170553904.
+[2020-09-16T15:20:26.839 info Netsdk:41296 11941:11963 dhnetsdk.cpp:837]Leave CLIENT_Logout. ret:1
