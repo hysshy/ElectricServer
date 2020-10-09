@@ -69,31 +69,31 @@ class RtspScene:
                     if len(bicycle_labels) > 0:
                         self.lastNum += 1
                         self.imgList.append(ori_im)
-                        cv2.imwrite(self.savePath + "/" + str(time.time())+'.jpg', ori_im)
-                    # else:
-                    #     if self.lastNum >= self.maxNum:
-                    #         data = str(datetime.datetime.now().strftime('%Y-%m-%d'))
-                    #         if not os.path.exists(self.savePath+'/'+data+'/right/'+str(self.id)):
-                    #             os.makedirs(self.savePath+'/'+data+'/right/'+str(self.id))
-                    #         for i in range(len(self.imgList)):
-                    #             img = self.imgList[i]
-                    #             imgName = data+'_'+str(self.id)+'_'+str(i)+'.jpg'
-                    #             cv2.imwrite(self.savePath+'/'+data+'/right/'+str(self.id) + "/" + imgName, img)
-                    #         self.id += 1
-                    #         self.imgList.clear()
-                    #         self.lastNum = 0
-                    #
-                    #     elif self.lastNum > 0:
-                    #         data = str(datetime.datetime.now().strftime('%Y-%m-%d'))
-                    #         if not os.path.exists(self.savePath+'/'+data+'/wrong/'+str(self.id)):
-                    #             os.makedirs(self.savePath+'/'+data+'/wrong/'+str(self.id))
-                    #         for i in range(len(self.imgList)):
-                    #             img = self.imgList[i]
-                    #             imgName = data+'_'+str(self.id)+'_'+str(i)+'.jpg'
-                    #             cv2.imwrite(self.savePath+'/'+data+'/wrong/'+str(self.id) + "/" + imgName, img)
-                    #         self.id += 1
-                    #         self.imgList.clear()
-                    #         self.lastNum = 0
+                        # cv2.imwrite(self.savePath + "/" + str(time.time())+'.jpg', ori_im)
+                    else:
+                        if self.lastNum >= self.maxNum:
+                            data = str(datetime.datetime.now().strftime('%Y-%m-%d'))
+                            if not os.path.exists(self.savePath+'/'+data+'/right/'+str(self.id)):
+                                os.makedirs(self.savePath+'/'+data+'/right/'+str(self.id))
+                            for i in range(len(self.imgList)):
+                                img = self.imgList[i]
+                                imgName = data+'_'+str(self.id)+'_'+str(i)+'.jpg'
+                                cv2.imwrite(self.savePath+'/'+data+'/right/'+str(self.id) + "/" + imgName, img)
+                            self.id += 1
+                            self.imgList.clear()
+                            self.lastNum = 0
+
+                        elif self.lastNum > 0:
+                            data = str(datetime.datetime.now().strftime('%Y-%m-%d'))
+                            if not os.path.exists(self.savePath+'/'+data+'/wrong/'+str(self.id)):
+                                os.makedirs(self.savePath+'/'+data+'/wrong/'+str(self.id))
+                            for i in range(len(self.imgList)):
+                                img = self.imgList[i]
+                                imgName = data+'_'+str(self.id)+'_'+str(i)+'.jpg'
+                                cv2.imwrite(self.savePath+'/'+data+'/wrong/'+str(self.id) + "/" + imgName, img)
+                            self.id += 1
+                            self.imgList.clear()
+                            self.lastNum = 0
 
                 except Exception as e:
                     Log.logger.exception(e)
